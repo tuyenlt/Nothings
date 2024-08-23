@@ -1,0 +1,15 @@
+.highlighted {
+    background-color: #d3f9d8 !important; /* Light green background for highlighted items */
+    text-decoration: line-through !important; /* Strike-through text for completed items */
+    opacity: 0.6; /* Reduced opacity for completed items */
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+.unhighlighted {
+background-color: #ffffff; /* White background for un-highlighted items */
+opacity: 1; /* Full opacity for un-highlighted items */
+transition: opacity 0.3s, transform 0.3s;
+}
+.list-btn{
+    opacity: 1 !important;
+}
